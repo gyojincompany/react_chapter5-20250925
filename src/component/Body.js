@@ -13,6 +13,11 @@ const Body = (props) => { //Body 컴포넌트
     name : "홍길동",
     age : 27
   };
+  console.log(props);
+
+  const {name, age} = props; //구조 분해 할당
+  console.log(name, age);
+
   return (
     <>
     {/* <React.Fragment> <- 랜더링 되지 않음 */}    
@@ -30,7 +35,7 @@ const Body = (props) => { //Body 컴포넌트
       <h3>
         {number}는 {number % 2 == 0 ? "짝수":"홀수"} 입니다.
       </h3>      
-      <h1>전달받은 props 값 : name = {props.name}, age = {props.age}</h1>   
+      <h1>전달받은 props 값 : name = {name}, age = {age}</h1>   
     {/* </React.Fragment> */}
     </>  
   );
