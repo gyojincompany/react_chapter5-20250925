@@ -1,7 +1,7 @@
 import React from "react";
 import "./Body.css";
 
-const Body = () => { //Body 컴포넌트
+const Body = (props) => { //Body 컴포넌트
   const number = 1;  
   const number1 = 10;
   const number2 = 20;
@@ -29,7 +29,8 @@ const Body = () => { //Body 컴포넌트
       <h3>{obj1.age}</h3>
       <h3>
         {number}는 {number % 2 == 0 ? "짝수":"홀수"} 입니다.
-      </h3>         
+      </h3>      
+      <h1>전달받은 props 값 : name = {props.name}, age = {props.age}</h1>   
     {/* </React.Fragment> */}
     </>  
   );
