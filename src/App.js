@@ -3,6 +3,7 @@ import Header from "./component/Header";
 import Body from "./component/Body";
 import Body2 from "./component/Body2";
 import Body3 from "./component/Body3";
+import Body4 from "./component/Body4";
 import Footer from "./component/Footer";
 import Join from './component/Join';
 
@@ -31,7 +32,8 @@ function App() { //App 컴포넌트
       */}
       {/* <Body2></Body2> */}
       {/* <Join /> */}
-      <Body3 />
+      {/* <Body3 /> */}
+      <Body4 />
       <Footer />
     </div>
   );
