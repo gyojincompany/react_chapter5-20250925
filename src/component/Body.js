@@ -72,7 +72,7 @@ function Body({name, age, favorList = [], children}) { //Body 컴포넌트
       <h1>count값 : {count}</h1>  
       <button onClick={onIncrease}>count 증가 버튼</button>
 
-       <h1>countTest값 : {countTest}</h1>  
+      <h1>countTest값 : {countTest}</h1>  
       <button onClick={onIncrease2}>countTest 증가 버튼</button>
       
     {/* </React.Fragment> */}
